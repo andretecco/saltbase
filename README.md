@@ -1,0 +1,2 @@
+# saltbase
+Projeto SaltStack
