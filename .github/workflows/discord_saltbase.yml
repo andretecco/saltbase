@@ -28,7 +28,7 @@ jobs:
         with:
             severity: info
             details: Succeeded!
-            webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+            webhookUrl: ${{ secrets.DISCORD_WEBHOOK_SALTBASE }}
         
       - name: Failure
         uses: rjstone/discord-webhook-notify@v1
@@ -36,7 +36,7 @@ jobs:
         with:
             severity: error
             details: Failed!
-            webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+            webhookUrl: ${{ secrets.DISCORD_WEBHOOK_SALTBASE }}
         
       - name: Cancelled
         uses: rjstone/discord-webhook-notify@v1
@@ -44,4 +44,4 @@ jobs:
         with:
             severity: warn
             details: Cancelled!
-            webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+            webhookUrl: ${{ secrets.DISCORD_WEBHOOK_SALTBASE }}
