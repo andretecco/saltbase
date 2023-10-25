@@ -1,2 +1,4 @@
-include:
-  - packages
+pkg.installed:
+  - name:
+    - htop
+    - smartmontools
