@@ -4,8 +4,7 @@ nginx:
 
 start_nginx:
   service.running:
-    - require:
-      - pkg: nginx
+    - enable: True
     - watch:
       - pkg: nginx
       - file: /etc/nginx/nginx.conf
