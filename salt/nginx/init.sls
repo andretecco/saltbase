@@ -10,7 +10,7 @@ nginx:
 /etc/nginx/nginx.conf
   file.managed:
     - source:
-      - salt://nginx/nginx.conf
+      - 'salt://nginx/nginx.conf'
     - user: root
     - group: root
     - mode: '0644'
