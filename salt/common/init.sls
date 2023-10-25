@@ -1,4 +1,5 @@
-pkg.installed:
-  - name:
-    - htop
-    - smartmontools
+all_pkgs:
+  pkg.installed:
+    - name:
+      - htop
+      - smartmontools
