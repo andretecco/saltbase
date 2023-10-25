@@ -1,5 +1,5 @@
-all_pkgs:
+base-pkgs:
   pkg.installed:
-    - name:
+    - pkg:
       - htop
       - smartmontools
