@@ -1,5 +1,5 @@
-base-pkgs:
-  pkg.installed:
-    - pkg:
-      - htop
-      - smartmontools
+htop:
+  pkg.installed: []
+
+smartmontools:
+  pkg.installed: []
