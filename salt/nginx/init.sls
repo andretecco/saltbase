@@ -8,11 +8,11 @@ nginx:
       - file: /etc/nginx/nginx.conf
 
 /etc/nginx/nginx.conf
-  file.managed
+  file.managed:
     - source: salt://nginx/nginx.conf
     - user: root
     - group: root
-    - mode: 644
+    - mode: '0644'
 
 #nginx:
 #  pkg:
