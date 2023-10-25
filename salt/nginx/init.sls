@@ -9,7 +9,7 @@ nginx:
 
 /etc/nginx/nginx.conf
   file.managed
-    - source:
+    - source
       - salt://nginx/nginx.conf
     - user: root
     - group: root
