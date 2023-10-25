@@ -1,5 +1,5 @@
 common_packages:
   pkg.installed:
-    name:
+    - name:
       - htop
       - smartmontools

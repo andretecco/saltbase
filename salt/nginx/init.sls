@@ -1,7 +1,8 @@
 nginx:
   pkg.installed:
-    name:
-      - nginx
+    - name: nginx
+
+start_nginx:
   service.running:
     - require:
       - pkg: nginx
