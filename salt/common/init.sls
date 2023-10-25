@@ -1,3 +1,3 @@
 include:
-  - common.sls
-  - python.sls
+  - common
+  - python
