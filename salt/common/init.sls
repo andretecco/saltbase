@@ -1,5 +1,3 @@
-htop:
-  pkg.installed: []
-
-smartmontools:
-  pkg.installed: []
+include:
+  - common.sls
+  - python.sls
