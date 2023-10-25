@@ -1,8 +1,6 @@
 nginx:
   pkg.installed:
     - name: nginx
-
-start_nginx:
   service.running:
     - enable: True
     - watch:
